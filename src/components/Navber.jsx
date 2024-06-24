@@ -17,7 +17,7 @@ const Navber = () => {
         })
     }
     return (
-        <div>
+        <div className="flex justify-center mt-8">
           
             {user?<button onClick={handleLogOut} className="btn btn-secondary">log out</button>:<Link to='/login'><button className="btn mr-6">log in </button></Link>}
             

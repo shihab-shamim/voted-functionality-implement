@@ -1,5 +1,6 @@
 
-import './App.css'
+
+import Collection from './components/Collection'
 import Navber from './components/Navber'
 
 function App() {
@@ -8,6 +9,11 @@ function App() {
   return (
     <>
  <Navber></Navber>
+ <div className='mt-8'> 
+  <Collection></Collection>
+ </div>
+
+
     </>
   )
 }
